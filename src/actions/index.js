@@ -16,7 +16,7 @@ export const increment = count => {
   console.log("increment:", count);
   return {
     type: INCREMENT,
-    payload: count // updates count property on state tree
+    payload: count + 1 // tell reducers how to update state tree (add 1 to count property)
   }
 };
 
@@ -25,6 +25,6 @@ export const decrement = count => {
   console.log("decrement:", count);
   return {
     type: DECREMENT,
-    payload: count 
+    payload: count - 1 // tell reducers how to update state tree (subtract 1 from count property)
   }
 };
