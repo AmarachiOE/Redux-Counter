@@ -56,4 +56,5 @@ const mapStateToProps = (state) => {
 // is only a dumb React component. We pass in all of the functions that
 // are reliant on Redux, along with the component itself, so that Redux
 // makes itself known to this component.
+// increment and decrement are action creators
 export default connect(mapStateToProps, { increment, decrement })(Counter);

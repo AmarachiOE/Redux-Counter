@@ -1,3 +1,5 @@
+// establish ACTION_TYPES (and export)
+
 export const INCREMENT = 'INCREMENT';
 export const DECREMENT = 'DECREMENT';
 

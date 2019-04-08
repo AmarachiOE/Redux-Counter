@@ -1,3 +1,4 @@
+// import ACTION_TYPES
 import { INCREMENT, DECREMENT } from '../actions';
 
 const initialState = {
